@@ -1,0 +1,60 @@
+.addEvent {
+    background: #1f2833;
+    width: 500px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.addEvent__date {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.addEvent__form {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+
+.addEvent__form input {
+    background: #0b0c10;
+    border: none;
+    outline: none;
+    color: #f9f9f9;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.addEvent__form button[type="submit"] {
+    width: 20%;
+    min-height: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    
+}
+
+.addEvent__list {
+    width: 80%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.addEvent__list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.i__times {
+    color: #e74c3c;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 20px;
+}

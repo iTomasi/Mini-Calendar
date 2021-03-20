@@ -1,0 +1,55 @@
+.calendar {
+    background: #1f2833;
+    width: 500px;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.calendar__header {padding: 10px 0 0 0 }
+
+.calendar__header-month {
+    font-size: 30px;
+
+}
+
+.table__days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 20px 0;
+}
+
+.table__numbers {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.table__numbers div {
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+.table__numbers div:hover {
+    background: #66FCF1;
+}
+
+.table__numbers-today {
+    background: #66FCF1
+}
+
+.table__numbers-othermonth {
+    color: #777
+}
+
+.calendar__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.calendar__header i {
+    cursor: pointer;
+    padding: 10px;
+}
