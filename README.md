@@ -12,3 +12,9 @@ NodeJS Modules:
 </ul>
 
 this project does is that you can save important things on a specific day, at which you can also delete it
+
+<h2>How to Install</h2>
+
+download this repository and open it, go to server folder and write in your cmd <strong>npm i</strong> for install all dependencies then go to "server/databases/db.sql" and copy paste that in your MySQL Database (need to create a database first). After go to "server" again and in your cmd write <strong>npm run dev</strong> or <strong>npm build and npm start</strong> when the server is running go to client folder and write <strong>npm start</strong> with all this the project should work.
+
+This project may be very simple for some, but it helps me to continue progressing in this wonderful world of programming.
