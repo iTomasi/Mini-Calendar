@@ -2,6 +2,8 @@ My first project made with typescript which I will try to improve little by litt
 
 this is a calendar made with react (front-end) and nodejs (backend) both written in typescript
 
+PD: I will not include the modules related to typescript, I will only say the modules that depend completely on the development for the user visualization.
+
 NodeJS Modules:
 
 <ul>
